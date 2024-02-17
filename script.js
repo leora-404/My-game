@@ -22,7 +22,7 @@ if (cactoPosition <= 59 && skeletonPosition < 80 && cactoPosition > 0) {
     skeleton.style.animation = 'none';
     skeleton.style.bottom = `-15px`
 
-    skeleton.src = 'imagens/death.png'
+    skeleton.src = 'death.png'
 
     clearInterval(loop);
 }
